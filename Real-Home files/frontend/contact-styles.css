@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+/* Contact Form Container */
+.contact-container {
+    background: #fff;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Title */
+.contact-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Labels */
+.contact-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Input Fields */
+.contact-container input[type="text"],
+.contact-container input[type="email"],
+.contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Textarea */
+.contact-container textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Submit Button */
+.contact-container button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Submit Button Hover */
+.contact-container button:hover {
+    background-color: #0056b3;
+}
+.back-to-home-button {
+    display: inline-block;            /* Makes the link behave like a button */
+    padding: 10px 15px;              /* Adds space inside the button */
+    background-color: #007bff;      /* Blue background color */
+    color: #fff;                     /* White text color */
+    font-size: 16px;                 /* Font size */
+    text-decoration: none;           /* Removes underline */
+    border-radius: 5px;              /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.back-to-home-button:hover {
+    background-color: #0056b3;      /* Darker blue on hover */
+}

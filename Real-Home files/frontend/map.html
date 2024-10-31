@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealHome - West London Map</title>
+    <style>
+        /* Basic reset for margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Map container styling */
+        .map-container {
+            width: 100%;
+            height: 600px; /* Set the desired height for the map */
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsive iframe styling */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    </style>
+    <a href="hp.html" class="back-to-home-button">Back to Home</a>
+
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>West London Map</h1>
+    </header>
+
+    <!-- Google Map Section -->
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509978!2d-0.21328948495100145!3d51.49496177963556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761c3d5c2ee64d%3A0x45c8c61e4573175a!2sWest%20London%2C%20London%2C%20UK!5e0!3m2!1sen!2sus!4v1690210565847!5m2!1sen!2sus" 
+            allowfullscreen 
+            loading="lazy">
+        </iframe>
+    </div>
+
+</body>
+</html>

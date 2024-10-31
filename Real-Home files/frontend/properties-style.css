@@ -1,0 +1,68 @@
+/* Properties Section */
+#properties {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.properties-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.property-item {
+    flex: 1 1 220px; /* Flex-grow, flex-shrink, flex-basis */
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.property-item:hover {
+    transform: scale(1.05);
+}
+
+.property-item img {
+    width: 100%; /* Make images responsive */
+    height: auto;
+    border-radius: 5px;
+}
+
+.property-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.property-item p {
+    color: #666;
+}
+
+.price {
+    font-weight: bold;
+    color: #1abc9c;
+    margin: 10px 0;
+}
+
+.property-item button {
+    padding: 10px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius.back-to-home-button {
+        display: inline-block;            /* Makes the link behave like a button */
+        padding: 10px 15px;              /* Adds space inside the button */
+        background-color: #007bff;      /* Blue background color */
+        color: #fff;                     /* White text color */
+        font-size: 16px;                 /* Font size */
+        text-decoration: none;           /* Removes underline */
+        border-radius: 5px;              /* Rounded corners */
+        transition: background-color 0.3s; /* Smooth background color transition */
+    }
+    
+    .back-to-home-button:hover {
+        background-color: #0056b3;      /* Darker blue on hover */
+    }
+}

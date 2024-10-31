@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealHome - Real Estate Agents</title>
+    <style>
+        body {
+            background-image: url('./images/agents1.jpeg');
+            background-size: cover;
+            background-position: absolute;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            margin: 0;
+        }
+    </style>
+    <style>
+        /* Basic reset for margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #0056b3;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Agent grid styling */
+        .agent-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        /* Individual agent card styling */
+        .agent-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .agent-card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Agent image */
+        .agent-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        /* Agent details styling */
+        .agent-details {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .agent-name {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .agent-email {
+            color: #0056b3;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .agent-email:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <a href="hp.html" class="back-to-home-button">Back to Home</a>
+
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Meet Our Real Estate Agents</h1>
+    </header>
+
+    <!-- Agents Grid Section -->
+    <div class="agent-grid">
+        <!-- Agent Card 1 -->
+        <div class="agent-card">
+            <img src="./images/agent1.jpeg" alt="agent1" class="agent-image">
+ <!-- Replace with agent's image path -->
+            <div class="agent-details">
+                <div class="agent-name">Ed Marsh</div>
+                <a href="mailto:jane.doe@example.com" class="agent-email">realed@icloud.com</a>
+            </div>
+        </div>
+
+        <!-- Agent Card 2 -->
+        <div class="agent-card">
+            <img src="./images/agent2.jpeg" alt="agent2" class="agent-image"> <!-- Replace with agent's image path -->
+            <div class="agent-details">
+                <div class="agent-name">Edd Sprouse</div>
+                <a href="mailto:john.smith@example.com" class="agent-email">sprouse.edd@icloud.com</a>
+            </div>
+        </div>
+
+        <!-- Agent Card 3 -->
+        <div class="agent-card">
+            <img src="./images/agent3.jpeg" alt="agent3" class="agent-image"><!-- Replace with agent's image path -->
+            <div class="agent-details">
+                <div class="agent-name">Eddy Johnson</div>
+                <a href="mailto:emily.johnson@example.com" class="agent-email">ejohnson@icloud.com</a>
+            </div>
+        </div>
+
+        <!-- Add more agent cards as needed -->
+    </div>
+
+</body>
+</html>

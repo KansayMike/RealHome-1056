@@ -1,0 +1,61 @@
+/* User Registration Section */
+#user-registration {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #16a085;
+}
+.back-to-home-button {
+    display: inline-block;            /* Makes the link behave like a button */
+    padding: 10px 15px;              /* Adds space inside the button */
+    background-color: #007bff;      /* Blue background color */
+    color: #fff;                     /* White text color */
+    font-size: 16px;                 /* Font size */
+    text-decoration: none;           /* Removes underline */
+    border-radius: 5px;              /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.back-to-home-button:hover {
+    background-color: #0056b3;      /* Darker blue on hover */
+}

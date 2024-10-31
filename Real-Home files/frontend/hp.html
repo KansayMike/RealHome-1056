@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealHome - Real Estate</title>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        
+            <style>
+                body {
+                    background-image: url('./images/background.jpeg');
+                    background-size: cover;
+                    background-position: absolute;
+                    background-attachment: fixed;
+                    background-repeat: no-repeat;
+                    margin: 0;
+                }
+            </style>
+    
+    </head>
+    
+</head>
+<body>
+    <header>
+        <div class="logo">RealHome</div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <nav id="navbar" class="navbar">
+            <ul>
+                
+                <li><a href="register.html">Register</a></li>
+                <li><a href="properties.html">Properties</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="agents.html">Agents</a></li>
+                <li><a href="map.html">Map</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to RealHome</h1>
+            <p>Your dream home is just a click away.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to RealHome, your trusted partner in finding the perfect property. Whether you're buying, selling, 
+                or renting, we're here to simplify the process and bring you a seamless real estate experience. Our platform 
+                is designed to connect homeowners, renters, and agents, providing a comprehensive listing of properties tailored 
+                to your needs. With detailed property insights, interactive map features, and verified agent profiles, RealHome 
+                empowers you to make informed decisions. Our mission is to redefine the real estate journey by combining user-friendly 
+                technology with personalized service, helping you find not just a property, but a place to call home.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer a range of services including property listings, virtual tours, and mortgage assistance.</p>
+            <section id="our-services">
+                <link rel="stylesheet" href="service-style.css">
+                <div class="services-list">
+                    <div class="service-item">
+                        <img src="./images/service1.png" alt="service1" class="service-image">
+                        <h3>Property Listings</h3>
+                        <p>We provide comprehensive listings of properties available for sale or rent, tailored to your needs.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="./images/service2.png" alt="service2" class="service-image">
+                        <h3>Consultation</h3>
+                        <p>Our experts offer personalized consultations to help you make informed decisions in real estate.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="./images/service3.png" alt="service3" class="service-image">
+                        <h3>Property Management</h3>
+                        <p>We manage properties efficiently, ensuring they are well-maintained and profitable for owners.</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="./images/service4.png" alt="service4" class="service-image">
+                        <h3>Market Analysis</h3>
+                        <p>Our team conducts thorough market analysis to provide you with the best insights and opportunities.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="featured-properties">
+            <h2>Featured Properties</h2>
+            
+            <link rel="stylesheet" href="properties-style.css">
+            <section id="featured-properties">
+                <h2>4th Quarter Featured properties</h2>
+                <div class="property-list">
+                    <div class="property-item">
+                        <img src="./images/home1.jpeg" alt="home1" class="home-image">
+                        <h3>Luxury Villa in the City</h3>
+                        <p>4 Bedrooms, 3.5 Bathrooms, Swimming Pool</p>
+                        <button onclick="location.href='property1.html'">View Details</button>
+                    </div>
+                    <div class="property-item">
+                        <img src="./images/home2.jpeg" alt="home2" class="home-image">
+                        <h3>Modern Apartment</h3>
+                        <p>5 Bedrooms, 3 Bathrooms, City View</p>
+                        <button onclick="location.href='property2.html'">View Details</button>
+                    </div>
+                    <div class="property-item">
+                        <img src="./images/home3.jpeg" alt="home3" class="home-image">
+                        <h3>Cozy Cottage</h3>
+                        <p>4 Bedrooms, 2.5 Bathroom, Garden</p>
+                        <button onclick="location.href='property3.html'">View Details</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 RealHome. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact-styles.css">
+    <a href="hp.html" class="back-to-home-button">Back to Home</a>
+
+    <style>
+        body {
+            background-image: url('./images/contact.jpeg');
+            background-size: cover;
+            background-position: absolute;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form action="/submit_contact" method="POST">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="enquiry">enquiry</label>
+            <input type="text" id="enquiry" name="enquiry" required>
+
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="comment" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</body>
+</html>
